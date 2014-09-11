@@ -8,7 +8,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <assert.h>
-#include "string.h"
+#include <string.h>
 
 void *generic_binary_search( void *data, void *key, int cellcount, int cellsize, int (*compare)(void *a, void *b) ) {
     if( cellcount <= 0 ) return NULL;
