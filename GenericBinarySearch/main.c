@@ -39,7 +39,6 @@ int int_compare( void *a, void *b ) {
 }
 
 void int_test(){
-    // integer
     int data[] = {1,2,3,3,4,6,6,7,7,8,9,10};
     int *result;
     int will_find = 8;
@@ -54,7 +53,6 @@ void int_test(){
 
 
 void str_test(){
-    // integer
     char *data[] = { "c", "pointer", "is", "amazing", "!" };
     char *result;
     char *will_find = "amazing";
